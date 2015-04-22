@@ -1,0 +1,48 @@
+<div ng-include="'components/navbar/navbar.html'"></div>
+<div>
+ <h2 class="postHeader">Post Event</h2>
+<img class="profilePicEdit" id="profilePicEdit" src="/app/uploads/Amazing-HD-shattered-vinyl-hd-wallpaper1429724201623.jpg" width="250" alt="Account Picture">
+
+<div class="eventInfoContainer2">
+  <form class="thing-form" enctype="multipart/form-data" action="/api/things" method="POST">
+      
+        <span class="imageSelect">Select File</span>
+    	<input id="fileupload" type="file" name="file" data-url="/upload" multiple ng-model="thingImage" onchange="readURL(this);">
+  	 
+    <div class="formFields">
+      <div class="form-group">
+      	<input type="text" name="date" class="form-control eventInput" placeholder="Date 04/22/2015" ng-model="formData.date">
+        <select class="form-control categoryInput" name="category" ng-model="formData.category">
+          <option value="">Category</option>
+                            <option class="optionBackground" value="Nightlife">NightLife</option>
+                            <option class="optionBackground" value="Entertainment">Entertainment</option>
+                            <option class="optionBackground" value="Restaurants">Restaurants</option>
+                            <option class="optionBackground" value="Family Fun">Family Fun</option>
+                            <option class="optionBackground" value="City Event">City Event</option>
+        </select>
+  	  </div>
+
+  	  <div class="form-group">
+   		 <input type="text" name="location" ng-model="formData.location" class="form-control locationInput" placeholder="City, Prov">
+  	  </div>
+
+  	  <div class="form-group">
+      	<input type="text" name="title" class="form-control locationInput" placeholder="Event Title" ng-model="formData.title">
+  	  </div>
+
+  	  <div class="form-group">
+    	<input type="text" name="body" ng-model="formData.body" class="form-control locationInput" placeholder="Event Description">
+  	  </div>
+
+  	 <div class="form-group">
+    	<input type="text" name="promos" ng-model="formData.promos" class="form-control locationInput" placeholder="Event Promotions - $2.50 shots">
+  	  </div>
+     
+    </p>
+    <span class="input-group-btn">
+        <button type="submit" class="btn btn-primary" ng-click="addThing()">Add New</button>
+      </span>
+    </div>
+  </form>
+  </div>
+</div>

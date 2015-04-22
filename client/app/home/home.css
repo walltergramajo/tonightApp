@@ -1,0 +1,109 @@
+
+/*Main Page*/
+
+.blackBackground
+{
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+
+.backgroundContainer1
+{
+  width: 100%;
+  height: 100%;
+   -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 -15px 30px #000000;
+}
+
+.container1
+{
+  background-image: url('../../assets/images/nightlife.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: -15px;
+}
+
+.backgroundContainer2
+{
+  width: 100%;
+  height: 100%;
+   -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 -15px 30px #000000;
+}
+
+.container2
+{
+  background-image: url('../../assets/images/entertainment.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: -20px;
+}
+
+.backgroundContainer3
+{
+  width: 100%;
+  height: 100%;
+   -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 -15px 30px #000000;
+}
+
+.container3
+{
+  background-image: url('../../assets/images/restaurants.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: -20px;
+}
+
+
+.backgroundContainer4
+{
+  width: 100%;
+  height: 100%;
+   -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 -15px 30px #000000;
+}
+
+.container4
+{
+  background-image: url('../../assets/images/familyfun.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: -20px;
+}
+
+.backgroundContainer5
+{
+  width: 100%;
+  height: 100%;
+   -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 -15px 30px #000000;
+}
+
+.container5
+{
+  background-image: url('../../assets/images/cityevents.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: -20px;
+  margin-bottom: -10px;
+}
+
+.nightLifeHeader
+{
+  color: #FFF;
+  padding-top: 100px;
+  padding-left: 20px;
+  padding-bottom: 5px;
+}

@@ -1,0 +1,157 @@
+.thing-form {
+    margin: 20px 0;
+}
+
+#banner {
+    border-bottom: none;
+    margin-top: -20px;
+}
+
+#banner h1 {
+    font-size: 60px;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+
+.hero-unit {
+    position: relative;
+    padding: 30px 15px;
+    color: #F5F5F5;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    background: #4393B9;
+}
+
+.navbar-default .navbar-nav > li > a 
+{
+  color: white;
+}
+
+/* Custom page header */
+.navbar-default
+{
+  background-color: #000;
+  border-color: #000;
+}
+
+.navbar-default .navbar-toggle
+{
+  border-color: #000;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #FFF;
+}
+
+.navbar-toggle .icon-bar
+{
+  margin-bottom: 6px;
+}
+
+.navbar-default .navbar-brand 
+{
+  color: #FFF;
+  font-size: 1.8em;
+  margin-top: 5px;
+}
+
+.blue
+{
+  color: #0699ab;
+}
+
+.tonightHeader
+{
+  color: white;
+  text-align: center;
+  margin-top: 80px;
+  font-size: 2em;
+  margin-bottom: 50px;
+}
+
+.largeText
+{
+  font-size: 2em;
+}
+
+.header {
+  margin-bottom: 10px;
+  background-color: #000;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+  color: #FFF;
+}
+
+#userName
+{
+  margin-bottom: -10px;
+}
+
+
+
+.logIn
+{
+  color: #FFF;
+  text-align: center;
+  margin-top: -20px;
+  font-size: 1.3em;
+}
+
+.noAccount
+{
+  color: #FFF;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.3em;
+}
+
+.noLogin
+{
+  color: #FFF;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1em;
+  margin-bottom:-10px;
+}
+
+.skipButton
+{
+  color: #0699ab;
+  text-align: center;
+  margin-top:10px;
+  margin-bottom: 30px;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.registration
+{
+  color: white;
+  text-align: center;
+  font-size: 1.4em;
+  margin-top: -20px;
+}
+
+
+.footer {
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 70px;
+    border-top: 1px solid #E5E5E5;
+}
+
+@media (min-width: 360px) {
+  .navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    margin-left: 50px;
+  }
+}

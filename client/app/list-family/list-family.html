@@ -1,0 +1,17 @@
+<div ng-include="'components/navbar/navbar.html'"></div>
+
+<div id="eventsListContainer">
+    <div class="col-lg-12">
+      <h1 class="listHeader">Family Fun</h1>
+      <div class="eventInfoContainer2">
+      <ul class="nav nav-tabs nav-stacked col-md-4 col-lg-4 col-sm-6" ng-repeat="thing in awesomeThings | orderBy: '-date' | filter: 'Family Fun'">
+        <li><a class="eventItem" ng-href="/view/{{thing._id}}">
+          <img class="eventImageThumb" src="/app/uploads/{{thing.img}}">
+        	<p class="eventName">{{thing.title}}<br>{{thing.date}}</p> 
+        	<!-- <p class="eventDate">{{thing.date}}</p> -->
+        	<!-- <button type="button" class="close" ng-click="deleteThing(thing)">&times;</button> -->
+        </a></li>
+      </ul>
+    </div>
+    </div>
+  </div>

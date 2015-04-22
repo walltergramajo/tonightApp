@@ -1,0 +1,87 @@
+.eventDate
+{
+  float: left;
+  margin-top: 10px;
+  color: #FFF;
+}
+
+.eventLocation
+{
+  text-align: right;
+  padding-top: 10px;
+  color: #FFF;
+  margin-right: 25px;
+}
+
+.eventTitle
+{
+  float: clear;
+  color: #0699ab;
+  border-top: solid 1px #0699ab;
+
+  padding-top: 30px;
+  font-size: 1.5em;
+}
+
+.eventDesc
+{
+  color: #FFF;
+}
+
+.specialPromo
+{
+  margin-top: 40px;
+  font-size: 1.5em;
+  float: clear;
+  color: #0699ab;
+}
+
+.promos
+{
+  color: #FFF;
+}
+
+.eventInfoContainer
+{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+  padding: 0 10px 10px 10px;
+}
+
+.nav
+{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.nav-tabs
+{
+  border-bottom: 2px solid #0699ab;
+}
+
+.nav > li > a 
+{
+  padding: 10px 15px;
+}
+
+.blueBg
+{
+  background-color: #0699ab;
+  height: 65px;
+  margin-top: -23px;
+  padding-top: 15px;
+}
+
+.menuIcons
+{
+  float: left;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.settings
+{
+  margin-left: 15px;
+}

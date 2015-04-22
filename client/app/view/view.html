@@ -1,0 +1,12 @@
+<div ng-include="'components/navbar/navbar.html'"></div>
+
+<img  class="eventImage" src="/app/uploads/{{thing.img}}">
+<div class="eventInfoContainer">
+  <p class="eventDate">{{ thing.date | date:'shortDate' }}</p>
+  <p class="eventLocation">{{ thing.location }}</p>
+  <h3 class="eventTitle">{{ thing.title }}</h3>
+  <p class="eventDesc">{{ thing.body }}</p>
+  <h3 class="specialPromo">Special Promo's</h3>
+  <p class="promos">{{ thing.promos }}</p>
+  <!-- <ng-include src="'views/movie-nav.html'"></ng-include> -->
+</div>
